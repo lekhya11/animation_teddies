@@ -1,0 +1,47 @@
+.bg-con {
+    background-image: url("back.webp");
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-size: cover;
+}
+
+.bottom-con{
+    display: flex;
+    justify-content: center;
+    align-items: center
+    
+}
+
+.img1{
+    animation: panda 15s linear 1;
+}
+
+@keyframes panda {
+    0%{
+        transform: scale(0.5);
+    }
+    50%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.5);
+    }
+}
+
+.img2{
+    animation: dudu 30s linear 1;
+}
+
+@keyframes dudu {
+    0%{
+        transform: scale(0.5);
+    }
+    50%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.5);
+    }
+}
